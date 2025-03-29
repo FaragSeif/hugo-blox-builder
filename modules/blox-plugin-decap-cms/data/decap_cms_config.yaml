@@ -5,11 +5,6 @@ backend:
   squash_merges: true
   identity_url: https://auth.decapbridge.com/sites/d6347365-a647-488c-8ca5-012acd20485e
   gateway_url: https://gateway.decapbridge.com
-# Better Decap + Bridge logo (optional)
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-# Add site links in DecapCMS (optional)
-site_url: https://faragseif.github.io/iris-website/
-
 media_folder: 'assets/media'
 public_folder: '/media'
 collections:
@@ -461,4 +456,8 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-
+          
+# Better Decap + Bridge logo (optional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+# Add site links in DecapCMS (optional)
+site_url: https://faragseif.github.io/iris-website/
